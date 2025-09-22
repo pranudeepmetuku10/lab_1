@@ -5,8 +5,6 @@ on:
     branches:
       - main
       - 'releases/**' # Runs only on main or release branches
-    branches-ignore:
-      - dev
 
   label:
     types:
