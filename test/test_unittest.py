@@ -1,10 +1,10 @@
 import sys
 import os
 import unittest
-
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 # Get the path to the project's root directory
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-sys.path.append(project_root)
+
 
 from src import calculator
 
