@@ -65,13 +65,13 @@ I intentionally left this mismatch in place. The point was to demonstrate how a 
 
 ---
 
-## Takeaways
+Takeaways
 
-Working through this lab gave me practical experience with:  
-- Setting up isolated Python environments with `venv`.  
-- Organizing a project and repository structure clearly.  
-- Writing tests with both `pytest` and `unittest`.  
-- Automating tests in GitHub Actions.  
-- Understanding how failing tests are reported and how they guide debugging.  
+- Learned how to set up and organize a Python project  
+- Got experience writing both pytest and unittest tests  
+- Configured GitHub Actions to run tests automatically  
+- Saw how test failures get surfaced in CI/CD logs  
+
+Overall, this was a good intro to putting code, tests, and automation together in one workflow.
 
 This process reinforced the value of automation in development and gave me a clearer sense of how CI/CD fits into everyday workflows.
