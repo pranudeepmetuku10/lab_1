@@ -22,12 +22,3 @@ def fun4(x, y):
     """Returns the sum of results from fun1, fun2, and fun3"""
     return fun1(x, y) + fun2(x, y) + fun3(x, y)
 
-def fun5(x, y):
-    validate_inputs(x, y)
-    if y == 0:
-        raise ZeroDivisionError("Division by zero not allowed")
-    return x / y
-
-def fun6(x, y):
-    validate_inputs(x, y)
-    return x ** y
