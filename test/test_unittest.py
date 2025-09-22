@@ -35,6 +35,16 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calculator.fun4(5, 0, -1), 4)
         self.assertEqual(calculator.fun4(-1, -1, -1), -3)
         self.assertEqual(calculator.fun4(-1, -1, 100), 98)
+    #added new tests for new functions
+    def test_fun5_division(self):
+        self.assertEqual(calculator.fun5(9, 3), 3)
+
+    def test_fun6_power(self):
+        self.assertEqual(calculator.fun6(2, 4), 16)
+
+    def test_invalid_inputs(self):
+        with self.assertRaises(TypeError):
+            calculator.fun2("a", "b")
 
 
 
